@@ -1,0 +1,23 @@
+{
+    "name": "ancosta.dev/filament-planner",
+    "description": "AI Blueprint planner for Filament v5 - generates detailed implementation plans",
+    "type": "laravel-package",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11|^12",
+        "filament/filament": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AncostaDev\\FilamentPlanner\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AncostaDev\\FilamentPlanner\\FilamentPlannerServiceProvider"
+            ]
+        }
+    }
+}

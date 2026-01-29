@@ -1,0 +1,455 @@
+{
+  "scraped_at": "2026-01-28T02:44:37.064053",
+  "stats": {
+    "total": 157,
+    "success": 157,
+    "failed": 0,
+    "start_time": "2026-01-28T02:41:23.612421",
+    "end_time": "2026-01-28T02:44:37.043264"
+  },
+  "sections": {
+    "introduction": {
+      "priority": "high",
+      "ai_context": "Fundamental concepts, installation, and setup. Start here for new users.",
+      "keywords": [
+        "installation",
+        "setup",
+        "basics",
+        "getting started"
+      ],
+      "related_to": [
+        "getting-started"
+      ]
+    },
+    "resources": {
+      "priority": "high",
+      "ai_context": "Core CRUD functionality. Main feature for building admin panels.",
+      "keywords": [
+        "crud",
+        "database",
+        "eloquent",
+        "models",
+        "admin panel"
+      ],
+      "related_to": [
+        "forms",
+        "tables",
+        "actions"
+      ]
+    },
+    "forms": {
+      "priority": "high",
+      "ai_context": "Form builder with 20+ field types. Essential for data input.",
+      "keywords": [
+        "input",
+        "fields",
+        "validation",
+        "forms",
+        "data entry"
+      ],
+      "related_to": [
+        "schemas",
+        "resources",
+        "actions"
+      ]
+    },
+    "tables": {
+      "priority": "high",
+      "ai_context": "Interactive data tables with filtering, sorting, and actions.",
+      "keywords": [
+        "table",
+        "list",
+        "grid",
+        "data display",
+        "columns"
+      ],
+      "related_to": [
+        "resources",
+        "filters",
+        "actions"
+      ]
+    },
+    "schemas": {
+      "priority": "medium",
+      "ai_context": "Layout system for building complex UIs with sections, tabs, wizards.",
+      "keywords": [
+        "layout",
+        "structure",
+        "organization",
+        "ui"
+      ],
+      "related_to": [
+        "forms",
+        "infolists"
+      ]
+    },
+    "actions": {
+      "priority": "high",
+      "ai_context": "Interactive buttons with modals for user actions.",
+      "keywords": [
+        "buttons",
+        "modals",
+        "interactions",
+        "crud operations"
+      ],
+      "related_to": [
+        "resources",
+        "tables",
+        "forms"
+      ]
+    },
+    "infolists": {
+      "priority": "medium",
+      "ai_context": "Display read-only data in structured layouts.",
+      "keywords": [
+        "read-only",
+        "display",
+        "view",
+        "presentation"
+      ],
+      "related_to": [
+        "schemas",
+        "resources"
+      ]
+    },
+    "notifications": {
+      "priority": "low",
+      "ai_context": "User notification system (flash, database, broadcast).",
+      "keywords": [
+        "alerts",
+        "messages",
+        "notifications",
+        "feedback"
+      ],
+      "related_to": [
+        "actions"
+      ]
+    },
+    "widgets": {
+      "priority": "medium",
+      "ai_context": "Dashboard widgets for stats and charts.",
+      "keywords": [
+        "dashboard",
+        "charts",
+        "statistics",
+        "analytics"
+      ],
+      "related_to": [
+        "resources"
+      ]
+    },
+    "navigation": {
+      "priority": "medium",
+      "ai_context": "Configure panel navigation and menu structure.",
+      "keywords": [
+        "menu",
+        "sidebar",
+        "navigation",
+        "routing"
+      ],
+      "related_to": [
+        "panel-configuration"
+      ]
+    },
+    "users": {
+      "priority": "medium",
+      "ai_context": "Authentication, authorization, and multi-tenancy.",
+      "keywords": [
+        "auth",
+        "login",
+        "permissions",
+        "tenancy"
+      ],
+      "related_to": [
+        "panel-configuration"
+      ]
+    },
+    "styling": {
+      "priority": "low",
+      "ai_context": "Customize appearance with CSS and theming.",
+      "keywords": [
+        "theme",
+        "css",
+        "design",
+        "appearance"
+      ],
+      "related_to": []
+    },
+    "testing": {
+      "priority": "medium",
+      "ai_context": "Testing Filament applications with PHPUnit/Pest.",
+      "keywords": [
+        "tests",
+        "phpunit",
+        "pest",
+        "quality"
+      ],
+      "related_to": [
+        "resources",
+        "forms",
+        "tables"
+      ]
+    },
+    "advanced": {
+      "priority": "low",
+      "ai_context": "Advanced features like render hooks and modular architecture.",
+      "keywords": [
+        "advanced",
+        "hooks",
+        "ddd",
+        "architecture"
+      ],
+      "related_to": []
+    },
+    "plugins": {
+      "priority": "low",
+      "ai_context": "Building and distributing Filament plugins.",
+      "keywords": [
+        "plugin",
+        "package",
+        "extension"
+      ],
+      "related_to": []
+    },
+    "components": {
+      "priority": "medium",
+      "ai_context": "Use Filament components outside panels in Blade/Livewire.",
+      "keywords": [
+        "standalone",
+        "blade",
+        "livewire",
+        "components"
+      ],
+      "related_to": [
+        "forms",
+        "tables"
+      ]
+    },
+    "panel-configuration": {
+      "priority": "medium",
+      "ai_context": "Global panel settings and configuration.",
+      "keywords": [
+        "config",
+        "settings",
+        "panel",
+        "global"
+      ],
+      "related_to": [
+        "navigation",
+        "users"
+      ]
+    },
+    "deployment": {
+      "priority": "low",
+      "ai_context": "Production deployment best practices.",
+      "keywords": [
+        "deploy",
+        "production",
+        "optimization"
+      ],
+      "related_to": []
+    },
+    "upgrade-guide": {
+      "priority": "low",
+      "ai_context": "Migration guide from previous versions.",
+      "keywords": [
+        "upgrade",
+        "migration",
+        "breaking changes"
+      ],
+      "related_to": []
+    },
+    "getting-started": {
+      "priority": "high",
+      "ai_context": "Quick start tutorial for first Filament application.",
+      "keywords": [
+        "tutorial",
+        "quickstart",
+        "first app"
+      ],
+      "related_to": [
+        "introduction",
+        "resources"
+      ]
+    }
+  },
+  "structure": {
+    "introduction": [
+      "overview",
+      "installation",
+      "ai",
+      "optimizing-local-development",
+      "help",
+      "version-support-policy",
+      "contributing"
+    ],
+    "getting-started": [
+      ""
+    ],
+    "resources": [
+      "overview",
+      "listing-records",
+      "creating-records",
+      "editing-records",
+      "viewing-records",
+      "deleting-records",
+      "managing-relationships",
+      "nesting",
+      "singular",
+      "global-search",
+      "widgets",
+      "custom-pages",
+      "code-quality-tips"
+    ],
+    "tables": [
+      "_main",
+      "columns",
+      "filters"
+    ],
+    "schemas": [
+      "overview",
+      "layouts",
+      "sections",
+      "tabs",
+      "wizards",
+      "empty-states",
+      "primes",
+      "custom-components"
+    ],
+    "forms": [
+      "overview",
+      "text-input",
+      "select",
+      "checkbox",
+      "toggle",
+      "checkbox-list",
+      "radio",
+      "date-time-picker",
+      "file-upload",
+      "rich-editor",
+      "markdown-editor",
+      "repeater",
+      "builder",
+      "tags-input",
+      "textarea",
+      "key-value",
+      "color-picker",
+      "toggle-buttons",
+      "slider",
+      "code-editor",
+      "hidden",
+      "custom-fields",
+      "validation"
+    ],
+    "infolists": [
+      "overview",
+      "text-entry",
+      "icon-entry",
+      "image-entry",
+      "color-entry",
+      "code-entry",
+      "key-value-entry",
+      "repeatable-entry",
+      "custom-entries"
+    ],
+    "actions": [
+      "overview",
+      "modals",
+      "grouping-actions",
+      "create",
+      "edit",
+      "view",
+      "delete",
+      "replicate",
+      "force-delete",
+      "restore",
+      "import",
+      "export"
+    ],
+    "notifications": [
+      "overview",
+      "database-notifications",
+      "broadcast-notifications"
+    ],
+    "widgets": [
+      "overview",
+      "stats-overview",
+      "charts"
+    ],
+    "panel-configuration": [
+      ""
+    ],
+    "navigation": [
+      "overview",
+      "custom-pages",
+      "user-menu",
+      "clusters"
+    ],
+    "users": [
+      "overview",
+      "multi-factor-authentication",
+      "tenancy"
+    ],
+    "styling": [
+      "overview",
+      "css-hooks",
+      "colors",
+      "icons"
+    ],
+    "advanced": [
+      "render-hooks",
+      "assets",
+      "enums",
+      "file-generation",
+      "modular-architecture"
+    ],
+    "testing": [
+      "overview",
+      "testing-resources",
+      "testing-tables",
+      "testing-schemas",
+      "testing-actions",
+      "testing-notifications"
+    ],
+    "plugins": [
+      "getting-started",
+      "panel-plugins",
+      "building-a-panel-plugin",
+      "building-a-standalone-plugin"
+    ],
+    "components": [
+      "overview",
+      "action",
+      "form",
+      "infolist",
+      "notifications",
+      "schema",
+      "table",
+      "widget",
+      "avatar",
+      "badge",
+      "breadcrumbs",
+      "button",
+      "checkbox",
+      "dropdown",
+      "empty-state",
+      "fieldset",
+      "icon-button",
+      "input-wrapper",
+      "input",
+      "link",
+      "loading-indicator",
+      "modal",
+      "pagination",
+      "section",
+      "select",
+      "tabs"
+    ],
+    "deployment": [
+      ""
+    ],
+    "upgrade-guide": [
+      ""
+    ]
+  }
+}

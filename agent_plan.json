@@ -1,0 +1,25 @@
+{
+    "resources": [
+        {
+            "name": "BlogPostResource",
+            "model": "App\\Models\\Post",
+            "form": {
+                "schema": [
+                    {
+                        "type": "TextInput",
+                        "name": "title",
+                        "required": true
+                    },
+                    {
+                        "type": "RichEditor",
+                        "name": "content",
+                        "label": "Post Body"
+                    }
+                ]
+            },
+            "table": {
+                "columns": []
+            }
+        }
+    ]
+}
