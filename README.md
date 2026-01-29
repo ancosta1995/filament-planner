@@ -14,11 +14,31 @@ Instead of letting AI hallucinate invalid PHP syntax or deprecated methods, Fila
 
 ## 📦 Installation
 
-```bash
-composer require ancosta/filament-planner
-```
+Since this package is currently in **Alpha** and hosted on GitHub (not Packagist), you need to configure your project to find it.
 
-*(Note: While in early alpha, you may need to install from a local path or specific repository)*
+1.  Open your application's `composer.json`.
+2.  Add the `repositories` key (or append to it):
+
+    ```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ancosta1995/filament-planner"
+        }
+    ]
+    ```
+
+3.  Run the require command:
+
+    ```bash
+    composer require ancosta.dev/filament-planner:dev-main
+    ```
+
+4.  (Optional) If auto-discovery fails, add the ServiceProvider to `bootstrap/providers.php` or `config/app.php`:
+
+    ```php
+    AncostaDev\FilamentPlanner\FilamentPlannerServiceProvider::class,
+    ```
 
 ## 🤖 How to Use (Code with AI)
 
@@ -62,4 +82,4 @@ See [SCHEMA.md](SCHEMA.md) for the full definition of available components and o
 
 ## 🤝 Contributing
 
-This is an experimental project managed by **Ancosta**. Feedback and PRs are welcome!
+This is an experimental project managed by **ancosta1995**. Feedback and PRs are welcome!
